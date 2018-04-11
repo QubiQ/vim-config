@@ -27,12 +27,12 @@ Plugin 'scrooloose/syntastic'
 
 "auto-completion stuff
 "Plugin 'klen/python-mode'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'klen/rope-vim'
 "Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
 ""code folding
-Plugin 'tmhedberg/SimpylFold'
+"Plugin 'tmhedberg/SimpylFold'
 
 "Colors!!!
 Plugin 'altercation/vim-colors-solarized'
@@ -44,7 +44,7 @@ filetype plugin indent on    " enables filetype detection
 let g:SimpylFold_docstring_preview = 1
 
 "autocomplete
-let g:ycm_autoclose_preview_window_after_completion=1
+"let g:ycm_autoclose_preview_window_after_completion=1
 
 "custom keys
 let mapleader=" "
@@ -117,7 +117,7 @@ set backspace=indent,eol,start
 
 
 "Folding based on indentation:
-autocmd FileType python set foldmethod=indent
+"autocmd FileType python set foldmethod=indent
 "use space to open folds
 nnoremap <space> za 
 "----------Stop python PEP 8 stuff--------------
